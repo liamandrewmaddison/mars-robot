@@ -1,0 +1,19 @@
+{
+  "name": "mars-robot",
+  "version": "1.0.0",
+  "description": "This is my Mars Robot which intakes commands",
+  "main": "robot.js",
+  "scripts": {
+    "test": "jest ./robot.spec.ts",
+    "build": "tsc robot.ts"
+  },
+  "author": "liammaddison",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.24.0",
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.23.3"
+  }
+}
