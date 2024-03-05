@@ -4,7 +4,7 @@
   "description": "This is my Mars Robot which intakes commands",
   "main": "robot.js",
   "scripts": {
-    "test": "jest ./robot.spec.ts",
+    "test": "jest ./robot.spec.ts --coverage",
     "build": "tsc robot.ts"
   },
   "author": "liammaddison",
