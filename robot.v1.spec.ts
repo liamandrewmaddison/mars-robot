@@ -1,4 +1,4 @@
-import { Grid, Position, Robot, Direction } from "./robot.ts";
+import { Grid, Position, Robot, Direction } from "./robot.v1";
 
 describe('Mars Robot', () => {
   const grid: Grid = { maxX: 5, maxY: 3, scents: new Set<string>() };

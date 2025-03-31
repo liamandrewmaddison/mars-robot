@@ -4,8 +4,10 @@
   "description": "This is my Mars Robot which intakes commands",
   "main": "robot.js",
   "scripts": {
-    "test": "jest ./robot.spec.ts --coverage",
-    "build": "tsc robot.ts"
+    "test:v1": "jest ./robot.spec.ts --coverage",
+    "test:v2": "jest ./robot.v2.spec.ts --coverage",
+    "build:v1": "tsc robot.v1.ts",
+    "build:v2": "tsc robot.v2.ts"
   },
   "author": "liammaddison",
   "license": "ISC",
