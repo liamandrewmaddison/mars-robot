@@ -47,7 +47,7 @@ LMLMLMLMM
 3 3 E
 MMRMMRMRRM`;
       
-      const mission = new MissionControl("5 5");
+      const mission = new MissionControl();
       expect(mission.processCommands(testInput)).toBe('1 3 N\n5 1 E');
     });
   });
